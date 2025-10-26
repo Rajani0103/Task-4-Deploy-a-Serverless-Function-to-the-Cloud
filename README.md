@@ -23,7 +23,8 @@ This demonstrates **event-driven computing**, **resource optimization**, and **c
 
 ## 📂 Source Code (`lambda_function.py`)
 
-```python
+python
+
 import json
 
 def lambda_handler(event, context):
@@ -62,14 +63,14 @@ def lambda_handler(event, context):
             })
         }
 
-🧠 How It Works
+## 🧠 How It Works
 
 1.AWS Lambda executes this code automatically whenever the API Gateway endpoint is hit.
 2.The Lambda environment is fully managed — no servers, no manual scaling.
 3.Function reads query parameters (like ?name=Rajani) and returns a formatted JSON response.
 4.Ideal for lightweight APIs and event-based tasks.
 
-🏁 Outcome
+## 🏁 Outcome
 
 1]Learned how to deploy a Serverless Function using AWS Lambda.
 2]Understood Function-as-a-Service (FaaS) and event-driven architecture.
